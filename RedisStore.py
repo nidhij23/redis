@@ -19,10 +19,12 @@ class RedisStore:
     
     def get_key(self, key):
         storage=self.pick_storage()
+        for key in storage:
+            print("printing",key,storage[key])
         if key in storage:
             result=storage[key]
         else:
-            result="NULL"
+            result=Strings.null
         return result, True
 
     def unset_key(self,key):

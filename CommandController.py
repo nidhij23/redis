@@ -7,7 +7,6 @@ def sanitize_command(command):
 
 def parse_command(command):
     tokens=command.strip().split(" ")
-    print(tokens)
     action=tokens[0].upper()
     parameters=tokens[1:]
     return action, parameters
