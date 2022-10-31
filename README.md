@@ -5,14 +5,14 @@ To run the redis store run the following command from the root directoy:
 python server.py
 ```
 ## Commands:
-GET <key> - retrieves a value for a given key
-SET <key> <value> - associates a key with a value and stores it in memory
-UNSET <key>
-NUMEQUALTO <value> - Returns the number of keys that are associated with the given value
-END - exits the program
-BEGIN - begins a transaction (no parameters)
-COMMIT - commits the transaction
-ROLLBACK - rolls back the transaction
+1. GET <key> - retrieves a value for a given key
+2. SET <key> <value> - associates a key with a value and stores it in memory
+3. UNSET <key>
+4. NUMEQUALTO <value> - Returns the number of keys that are associated with the given value
+5. END - exits the program
+6. BEGIN - begins a transaction (no parameters)
+7. COMMIT - commits the transaction
+8. ROLLBACK - rolls back the transaction
 
 ## Run Unit Tests:
 This uses python's unittest framework
