@@ -1,6 +1,6 @@
 from RedisStore import RedisStore
-import CommandController
-import Strings
+import controllers.CommandController as CommandController
+import Strings as Strings
 
 
 

@@ -1,10 +1,10 @@
 import unittest
-import CommandController
+# from ..controllers.CommandController import CommandController
+from controllers import CommandController
 from RedisStore import RedisStore
 import unittest
 from unittest.mock import patch
 
-# @test(groups=["unit", "strings"])
 class TestCommandController(unittest.TestCase):
     store=None
 

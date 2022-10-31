@@ -1,5 +1,5 @@
-import ActionController 
-import Strings
+import controllers.ActionController as ActionController 
+import Strings as Strings
 
 def sanitize_command(command):
     tokens=command.strip().split(" ")
